@@ -20,6 +20,6 @@
             #include <stdlib.h>
 
             int main(int argc, char* arg[]) {
-    	           return EXIT_SUCCESS;
-             }
+                return EXIT_SUCCESS;
+            }
                 """
