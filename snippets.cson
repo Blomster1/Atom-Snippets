@@ -23,13 +23,25 @@
                 return EXIT_SUCCESS;
             }
                 """
-    '.source.c':
-        'short comment':
-        'prefix': 'shrtcom'
-            'body': """
-            /*
 
+
+'source.c, source.js, source.css, source.java'
+    'short comment':
+    'prefix': 'shrtcom'
+    'body': """
+        /*
+
+            ${1:Comment here}
+
+        */
+        """
+
+    'comment section':
+        'prefix':'comsect'
+        'body': """
+
+        /********************************************
                 ${1:Comment here}
+        ********************************************/
 
-            */
-            """
+        """
