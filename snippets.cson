@@ -23,3 +23,13 @@
                 return EXIT_SUCCESS;
             }
                 """
+    '.source.c':
+        'short comment':
+        'prefix': 'shrtcom'
+            'body': """
+            /*
+
+                ${1:Comment here}
+
+            */
+            """
